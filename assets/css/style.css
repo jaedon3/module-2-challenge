@@ -92,13 +92,10 @@ header nav ul {
 /* section title style begin */
 
 .section-title {
-    font-size: large;
     border-bottom: 3px solid;
     color: steelblue;
     padding-bottom: 20px;
     text-align: left;
-    margin: 20px 30px 35px;
-    width: 50%;
 }
 
-/* section title ends */
+/* section title style end */
