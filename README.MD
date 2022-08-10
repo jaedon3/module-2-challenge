@@ -1,7 +1,7 @@
-# Jaedon Khubani
+# Jaedon Khubani Professional Portfolio
 
 ## Purpose
-My professional portfolio
+My professional portfolio.
 
 ## Built With
 * HTML
@@ -12,5 +12,3 @@ https://github.com/jaedon3/professionalportfolio
 
 ## Contribution
 Made with ❤️ by Jaedon
-
-### Jaedon Khubani
