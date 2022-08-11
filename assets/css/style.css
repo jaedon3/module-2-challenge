@@ -99,3 +99,38 @@ header nav ul {
 }
 
 /* section title style end */
+
+/* my work section begins */
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-large {
+    padding: 45px;
+}
+
+.work-large img {
+    max-width: 65%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.work-small {
+    padding: 30px;
+}
+
+.work-small img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
