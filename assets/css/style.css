@@ -273,7 +273,7 @@ header nav ul {
     }
 
     .contact-info ul {
-        font-size: 16px;
+        font-size: 22px;
         justify-content: space-between;
     }
 
@@ -292,13 +292,26 @@ header nav ul {
     }
 
     .work-title {
-        position: absolute;
+        position: relative;
         bottom: -7px;
-        left: 40px;
+        left: 0px;
     }
 
     .work-large .work-title {
-        left: 44px;
+        bottom: -7px;
+        left: 30px;
+        position: relative;
+    }
+
+    .work-large img {
+        max-width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: 80% 50%;
+    }
+
+    .work-small {
+        padding: 15px;
     }
 
 }
