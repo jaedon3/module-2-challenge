@@ -78,13 +78,9 @@ header nav ul {
 }
 
 .hero img {
-    width: 25%;
+    width: 45%;
     padding: 25px;
     align-self: center;
-}
-
-.hero-subtitle {
-    padding-right: 20%;
 }
 
 .hero h2 {
@@ -97,15 +93,33 @@ header nav ul {
 /* section title style begin */
 
 .section-title {
-    border-bottom: 3px solid;
     color: steelblue;
     padding-bottom: 20px;
     text-align: left;
+    width: 20%;
+    border-bottom: 3px solid paleturquoise;
 }
 
 /* section title style end */
 
+/* about me section begins */
+.info {
+    padding: 60px;
+}
+
+.info p {
+    padding-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*about me section ends */
+
 /* my work section begins */
+
+.example {
+    padding: 60px;
+}
 
 .work {
     width: 100%;
@@ -137,6 +151,7 @@ header nav ul {
     display: flex;
     height: 300px;
     width: 100%;
+    padding: 0 40px 0 40px;
 }
 
 .work-small {
@@ -170,4 +185,120 @@ header nav ul {
     bottom: 140px;
     left: 120px;
     color: white;
+}
+
+/* my work section ends */
+
+/*contact info section begins */
+
+.contact-info {
+    padding: 60px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    font-size: 25px;
+}
+
+/* contact info section ends */
+
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+
+      .contact-info h2 {
+        text-align: center;
+        width: 30%;
+      }
+
+      .contact-info ul {
+        font-size: 20px;
+      }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    .contact-info h2 {
+        width: 45%;
+    }
+
+    .work-large {
+        padding-top: 20px;
+    }
+
+    .contact-info ul {
+    font-size: 17px;
+    }
+
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .section-title {
+        width: auto;
+        text-align: center;
+    }
+
+    .contact-info h2 {
+        width: auto;
+    }
+
+    .contact-info ul {
+        font-size: 16px;
+        justify-content: space-between;
+    }
+
+    .info p {
+        text-align: center;
+    }
+
+    .work-large {
+        padding:30px 0 0 0;
+    }
+
+    .work-small-parent {
+        height: auto;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+
+    .work-title {
+        position: absolute;
+        bottom: -7px;
+        left: 40px;
+    }
+
+    .work-large .work-title {
+        left: 44px;
+    }
+
 }
