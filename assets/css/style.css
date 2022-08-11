@@ -67,24 +67,29 @@ header nav ul {
 /*hero style begin */
 
 .hero {
-    background-image: url("../images/heroimage.jpeg");
+    background-image: url(../images/heroimage.jpeg);
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    align-items: center;
 }
 
 .hero img {
     width: 25%;
     padding: 25px;
+    align-self: center;
+}
+
+.hero-subtitle {
+    padding-right: 20%;
 }
 
 .hero h2 {
     color: aliceblue;
-    padding: 50% 0 50% 0;
+    align-self: center;
 }
 
 /* hero section ends */
@@ -110,27 +115,59 @@ header nav ul {
     justify-content: space-around;
 }
 
+.work h3{
+    position: absolute;
+}
+
 .work-large {
     padding: 45px;
+    position: relative;
 }
 
 .work-large img {
-    max-width: 65%;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.work-small-parent {
+    display: flex;
+    height: 300px;
+    width: 100%;
 }
 
 .work-small {
     padding: 30px;
+    flex-basis: 50%;
+    position: relative;
 }
 
 .work-small img {
-    width: 500px;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.work-title {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.work-large .work-title {
+    position: absolute;
+    bottom: 140px;
+    left: 120px;
+    color: white;
 }
