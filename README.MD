@@ -8,7 +8,7 @@ My professional portfolio.
 * CSS
 
 ## Website
-https://github.com/jaedon3/professionalportfolio
+https://jaedon3.github.io/professionalportfolio/
 
 ## Contribution
 Made with ❤️ by Jaedon
